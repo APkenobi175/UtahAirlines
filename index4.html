@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Apply for a job!</title>
+        <link rel="Stylesheet" type="text/css" href="style.css">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Scroll Activated Animation</title>
+        <style type="text/css">
+            
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            body {
+                font-family: Raleway, Arial;
+            }
+            
+            .content {
+                height: 1px;
+                background-color: #666;
+            }
+            
+            .about {
+                max-width: 1400px;
+                margin: 0 auto;
+                padding: 100px 0;
+                
+                font-size:30px;
+            }
+            .about h2 {
+                font-size: 30spx;
+                font-weight: 400;
+            }
+            .about h2, .about p {
+                transition: all 1s ease;
+            }
+            .about.hidden h2 {
+                opacity: 0;
+                transform: translate3d(0, 0, 400px) rotateY(-40deg);
+            }
+            .about.hidden p {
+                opacity: 0;
+                transform: translate3d(0, 0, 400px) rotateY(40deg);
+            }
+            .sticky {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                ;
+}
+            
+            
+            
+            
+        </style> 
+    </head>
+        
+    <body>
+         <nav>
+             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+            <center><div id=navbar class="navbar">
+                <center>
+                    <img class=logo src="images/logo2.png">
+                 <a href="index5.html"><i class="fa fa-fw fa-user"></i> Frequent Flyer Program</a>
+                    <a class="active" href="index4.html"><i class="fa fa-fw fa-user"></i> Apply for a Job!</a>
+                    <a href="index3.html"><i class="fa fa-fw fa-envelope"></i> Contact Us</a>
+                    <a href="index2.html"><i class="fa fa-fw fa-search"></i> Flights</a>
+                       
+                <a href="index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                    <center></center>
+                
+                
+                <div class="content"></div>
+        
+        
+       
+                
+                </center>
+            </div>
+                </center>
+            </nav>
+        <center><header class=parallax2>
+            
+            <center><p class=what>UTAH AIRLINES</p></center>
+           
+
+            </header></center>
+         <div class="about hidden">
+             
+            <h2 class=bluenova>Job Applications</h2>
+            <p class=bluenova>Job Applications can be picked up at the Utah Airlines office in Salt Lake City you can download one by clicking on the image to the right.<br>
+            <br>
+                Email us at UtahAirlines@gmail.com
+            <br>Calls us at<br>
+                1800-457-9999
+            <br>Get information on what jobs are open and what to apply for.<br>some positons we need filled include:<br>
+                    <br>
+                    Pilot <br> Accountant <br> Flight Organizer <br>  Flight Attendants <br> Ticket Seller <br><br>
+                    We can't wait to work with you
+        </div>
+    <center><a href="downloadable/utah_airlines_jobapplication.pdf"> <img src="images/jobapplication.png" height=500px;  ></a><br>
+        <p class=bluenova>Download Job Application here</p></center>
+        <br>
+        <div class="content"></div>
+        
+        
+        
+        
+        
+       
+        
+           
+        <div class="aboutyourmom2">
+                <center> <h1 class="bluenova2">Salaries</h1></center>
+                <center><p class="bluenova2"> The salary you will receive depends on the job that you get. Pilot salaries start at $60,770 a year. Accountants will start at $30,000 a year. In your job interview we will discuss starting salaries and wages</p></center><br>
+                <center><img src="images/pilot.jpg" class=image></center>
+                 <br>
+                <p class=bluenova2>Pilot that works for the Utah Airlines</p><br>
+            </div>
+            <div class=aboutyourmom2>
+
+                
+            </div>
+       <footer>
+		<div class="footer3">
+            <div class="footer1">&copy;2019 Ammon Phipps, John coker, WayLAND Van Meer</div>
+            <div class="footer2">
+            <a href="https://www.facebook.com/utah.airlines" class="socialicon" style="background-image: url(images/facebook.png)"></a>
+            <a href="https://www.instagram.com/p/B4cybb7HTkv/?igshid=1jrdztbferg47" class="socialicon" style="background-image: url(images/instagram.png)"></a>
+            <a href="https://twitter.com/AirlinesUtah?s=09" class="socialicon" style="background-image: url(images/twitter.png)"></a>
+           <a href="mailto:utahairlines@email.com" class="socialicon" style="background-image: url(images/gmailogoFORREAL.png)"></a>
+            </div>
+		</div>
+	</footer>
+     
+        
+        
+
+        
+        
+        
+        
+        
+        
+        
+    </body>
+</html>
+
+
+<!--JAVASCRIPT-->
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script type="text/javascript">
+            
+            (function() {
+                
+                var aboutEl = $('div.about'),
+                    aboutElOffset = aboutEl.offset().top/2,
+                    documentEl = $(document);
+                
+                documentEl.on('scroll', function() {
+                    if ( documentEl.scrollTop() > aboutElOffset && aboutEl.hasClass('hidden') ) aboutEl.removeClass('hidden'); 
+                });
+                
+                
+                
+                
+                
+            })();
+            
+            
+            
+        </script>
+      
+                    <script>
+            window.onscroll = function() {myFunction()};
+
+            var navbar = document.getElementById("navbar");
+            var sticky = navbar.offsetTop;
+
+            function myFunction() {
+              if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+              } else {
+                navbar.classList.remove("sticky");
+              }
+            }
+            </script>
+        <!--END OF JAVASCRIPT-->
+
+
+
+

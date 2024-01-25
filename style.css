@@ -1,0 +1,333 @@
+    
+                .bluenovaleft{
+                    margin-right:60px;
+                        font-family:Nova;
+                    color:#429e9d
+                }                
+
+                html {
+                  scroll-behavior: smooth;
+                }
+
+
+                .noindent{
+                    float:left
+                }            
+                .greynova{
+                font-family: Nova;
+                color:#b1b1b1;
+                margin-left:10px;
+}
+            .redlobster{
+                font-family: Lobster;
+                color:#ed553b;
+                margin-left:10px;
+}
+            .greylobster{
+                font-family: Lobster;
+                color:#b1b1b1;
+                margin-left:10px;
+}
+
+            .slogan{
+                float:center;
+                width:250px;
+                padding-top:12px
+                }
+
+            .what{
+                font-family: Nova;
+                color:#ed553b;
+                text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+                font-size:100px;
+                margin-top:1px;
+                
+                }
+
+
+            .bruh{
+                margin-bottom:50px;
+                }
+            .logo{
+                float:left;
+                margin-right:60px;
+                width:45px
+                
+                }
+            .jim{
+                float:left;
+                font-family:Nova;
+                color:#ed553b;
+                font-size: 15px;
+                margin-left:30px;
+
+            }
+
+            .left{
+                float:left;
+                height:400px;
+            }
+            .right{
+                float:right;
+               margin-right:40px;
+                width:35%;
+            }
+            .aboutyourmom2{
+                float:center;
+                width:%;
+                height:350px;
+                background-color: #666;
+                padding-top:10px;
+                margin-right:50px;
+                margin-left:50px;
+                font-size:30px;
+                
+                    
+            }
+            header {
+                background-color:#ed553b;
+                width:100%;
+                height:550px;
+                color:white;
+                background-image:radial-gradient
+                
+                
+                
+            }
+
+            
+            section.navbutton {
+                background-image:
+                width:100%;
+                height:30px;
+                float:left;
+                padding:20px;
+                margin-left:40px;
+            }
+            main {
+                background-color:gray;
+                width:1200px;
+                height:600px;
+                margin-top:-22px;               
+            }
+            section.main {
+                background-color:pink;
+                width:1120px;
+                height:350px;
+                margin-top:-20px;
+                margin-left:30px;
+                margin-right:20px;
+            }
+            article {
+                background-color:orange;
+                width:580px;
+                height:300px;
+                float:left;
+                margin-top:-20px;
+                margin-left:20px;
+                margin-right:20px;
+                padding-left:20px;        
+            }
+            aside {
+                background-color:#666;
+                float:left;
+                height:500px;
+                width:50%;
+               
+            }
+            .aside2 {
+                background-color:#666;
+                float:left;
+                height:240px;
+                width:50%;
+            }
+            section.below {
+                background-color:tan;
+                width:1120px;
+                height:200px;
+                margin-top:-22px;
+                margin-left:30px;
+                margin-right:20px;
+            }
+            footer {
+                background-color:black;
+                width:100%;
+                height:120px;
+                margin-top:auto;
+                padding-left:10
+            }
+            .navbar {
+                width: 100%;
+                background-color: #555;
+                overflow: auto;
+                float:right;
+                padding-top:5px;
+            }
+
+            .navbar a {
+                float: right;
+                text-align: center;
+                padding: 12px;
+                color: white;
+                text-decoration: none;
+                font-size: 17px;
+            }
+
+            .navbar a:hover {
+                background-color: #000;
+            }
+
+            .active {
+                background-color: #429e9d;
+            }
+
+            @media screen and (max-width: 500px) {
+            .navbar a {
+                float: center;
+                display: block;
+                }
+            }   
+            body{
+                background-color: #666
+            }
+            .aboutus{
+                color:#429e9d;
+                float:center;
+                width:90%;
+                height:200px;
+                background-color:#666;
+                font-family: lobster;
+            }
+            @keyframes animation{
+                0% {background-color:#666;}
+                50%{background-color:#666}
+                100%{background-color:#666}
+            }
+            @keyframes jimmy{
+                0%{color: #429e9d;}
+                50%{color: #429e9d;}
+                100%{color: #429e9d;}
+                    
+                }
+            .jimmy{
+                float:center;
+                margin-left:50px;
+                margin-right:50px;
+                animation-name: jimmy;
+                animation-duration: 1.7s;
+                animation-iteration-count: 1000000000000000000000;
+                font-family: Nova;
+                
+                
+            }
+            .yourmom{
+                float:left;
+                width:50%;
+                height:600px;
+                background-color: #ed553b;
+                color:white;
+    
+            }
+
+            .text{
+                margin-left:10px;
+            }
+            .yourmom2{
+                float:center;
+                width:100%;
+                height:460px;
+                background-color: #666;
+                color:white;
+                text-align:center;
+            }
+            .image{
+                width:450px;
+                height:50%;
+                margin-left:10px
+    
+            }
+            @font-face {
+                font-family: lobster;
+                src: url(fonts/lobster_1.3.otf)
+            }
+            @font-face{
+                font-family:Nova;
+                src:url(fonts/NovaSquare.ttf)
+            }
+            .bluenova{
+                font-family:nova;
+                color:#429e9d;
+                text-align: center;
+            }
+            .bluenova2{
+                font-family:nova;
+                color:#429e9d;
+                margin-left:10px;
+                text-align:center;
+            }
+            .footer3 {
+	           text-align: center;
+	           background-color: black;  
+                color: #429e9d;
+                text-transform: uppercase;
+                font-weight: lighter;
+                letter-spacing: 2px;
+                font-family: Nova;
+                padding-top: 25px;
+                margin-bottom: 0px;
+                height: auto;
+            }
+            .socialicon {
+                width: 45px;
+                height: 45px;
+                background-size: 45px 45px;
+                background-repeat: no-repeat;
+                float: left;
+                padding-right: 7px;
+                        }
+            .footer1 {
+                width: 100%;
+                width: 100%;
+                vertical-align: middle;
+                text-align:center;
+            }
+
+            .footer2 {
+                width: 210px;
+                vertical-align: middle;
+                margin-left: auto;
+                margin-right: auto;
+                padding-top:10px;
+                padding-bottom: 50px;
+                background-color: Black;
+            }
+            .parallax{
+                background-image:url(images/background.jpg);
+                height:1000px;
+                background-attachment:fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+            }
+            .godown{
+                width:50px;
+            }
+            .footer4{
+                vertical-align:bottom;
+                font-family:Nova;
+                color: #429e9d;
+            }
+            footer{
+                width:100%;
+            }
+            .parallax2{
+                background-image:url(images/background.jpg);
+                height:175px;
+                background-attachment:fixed;
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size:cover;
+            @keyframes gay{
+                0%{left:0px;top:0px;}
+                100%{left:0px;top:10px;}
+            }
